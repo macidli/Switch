@@ -1,0 +1,481 @@
+:root{
+    --yasil:#53d153;
+    --tyasil:#2b9b2b;
+}
+header{
+    height:100vh;
+    background:url('../img/deskbg.jpg') center/cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px 12px 30px;
+}
+nav a img{
+    padding-bottom: 20px;
+}
+
+menu li a{
+    font:bold 1em 'Proxima Nova';
+    color: #fff;
+    transition:all  .3s;
+}
+menu li{
+    padding-bottom: 20px;
+}
+#search{
+  display:flex;
+}
+#search input,#search button{
+    border:none;
+    outline:none;
+    background:#e7e7e7 ;
+    padding: 0 10px;
+    height: 27px;
+}
+#search input{
+    border-radius: 1em 0 0 1em;
+    /* padding:10px 60px 10px 10px; */
+}
+#search button{
+    border-radius: 0 1em 1em 0;
+}
+#search button img { height: 15px;}
+main section{
+    padding:40px  0 0 0;
+    text-align: center;;
+}
+h1{
+    font:700 2em 'Montserrat';
+    color: #fff;
+
+}
+h2{
+    font: 1.2em 'Montserrat';
+    color: #828181;
+}
+h3 {
+    padding-top:25px;
+    font: bold 1.5em 'Proxima Nova';
+    color: #828181;
+}
+h4{
+    font: 1em 'Montserrat';
+    letter-spacing: 3px;
+    color: #ddd;
+}
+h6 {
+    font: 1em 'Open Sans';
+    color: #b7b3b3;
+}
+hr { 
+    width: 43px;
+    height: 2px;
+    border: none;
+    background: #818181;;
+}
+.bigp{
+    padding-block: 18px;
+    font: 1em 'Montserrat';
+    color: #828181;
+}
+
+#testp,.herp, .herp span{
+    font: 1em 'Proxima Nova';
+    color: #444;
+    max-width: 560px;
+}
+.herp{padding-left: 20px;
+      text-align: left;}
+.herp span{
+    color: #ccc;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+#art3{padding:48px 0;}
+#art3 article{padding:24px 0;}
+.btn{
+    display:inline-block;
+    font-family: 'Proxima Nova';
+    border:none;
+}
+
+.btn1{
+    font-size: 1em;
+    border-radius: 1em;
+    padding: 7px 17px;
+}
+.btn2{
+    font-size: 1.1em;
+    border-radius: 1.3em;
+    padding: 10px 20px;
+}
+.btn3 {
+    font-size: 1.3em;
+    border-radius: 1.5em;
+    padding: 14px 24px;
+}
+.btnyasil{
+    background-color: var(--yasil);
+    color:#fff;
+}
+.btntyasil{
+    background-color: var(--tyasil);
+    color:#fff;
+    margin:50px 0;
+}
+
+.btnag {
+    background: #fff;
+    color: var(--tyasil);
+}
+#buttons{
+    display:flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+#buttons button { border: 1px solid var(--tyasil) }
+#buttons button:first-child{border-radius:1em 0 0 1em;}
+#buttons button:nth-child(2) { border-radius: 0; }
+#buttons button:last-child{border-radius:0 1em 1em 0;}
+
+#buttons button:hover,#buttons button.active{
+    background-color: var(--tyasil);
+    color:#fff;
+}
+
+.uppercase{text-transform: uppercase;}
+
+.bgag{background-color: #fff;}
+.bgyasil{background-color: var(--yasil);}
+.bgboz{background-color: #f2f1f1;}
+
+.bgyasil h2{ color:#1f7b1f;}
+.bgyasil hr{color:#1f7b1f;}   /* hr bg yasil ucun yasil gorunmedi */
+.bgyasil h6{color:var(--tyasil);}
+
+
+#scroll{
+    background: linear-gradient(to right,#d2c3b9,#ebddd0,#f3ebe0,#c2c0c0);
+    border:none;
+    padding:5px 14px 8px 5px  ;
+    border-radius: 20px;
+}
+#scroll a{
+    font: 300 1em 'Proxima Nova';
+    color: #111;
+}
+.iconfr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    background: #e0f3e0;
+    border-radius: 28px;
+    color: var(--yasil);
+    font-size: 4.6em;
+    margin: auto;
+}
+#gallary{padding:2em 0 0 0}
+#gallary img{
+    padding: 0.5em 1em;
+    width:100%;
+}
+#testmain{
+    padding-top: 60px;
+    display:flex;
+    justify-content: space-around;
+    max-width: 750px;
+    margin: auto;
+    align-items: center;
+}
+
+#testmain{
+    padding-top:15px 0;
+}
+#test{
+    padding-bottom: 40px;
+}
+.fa-chevron-left, .fa-chevron-right{
+    font-size: 1.4em;
+}
+.fa-user{font-size:2em}
+#profil{
+    display:flex;
+    justify-content:center;
+    padding:20px 0 0 0; 
+}
+#companies{
+    padding:56px 0 0 0;
+
+}
+#companies img{
+    padding:2em 1em;
+}
+#client button{
+    color:#a59d9d;
+    background-color: #dddcdc;
+}
+.stars{
+    padding:37px 0;
+}
+.infostar{
+    padding:20px 12px;
+}
+.infostar p{
+    font-size: 1em 'Proxima Nova';
+    color: #fff;
+}
+.connections{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    background-color:#c5e9c5;
+    height: 20px;
+    padding: 5px;
+    width:84px;
+    border-radius: 14px;
+    margin:10px auto ;
+}
+.connections a:first-child{ color:#f74764;}
+.connections a:nth-child(2){ 
+    color:red;
+}
+.connections a:last-child{ color:blue;}
+.teamsec_end{
+    background: #3eba3e;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 0;
+    margin-top: 60px;
+    button{
+        background: #53d153;
+        color: #fff;
+    }
+}
+#ARC{
+    background-color: #333;
+}
+.informations{
+    padding-top: 30px;
+    text-align: center;
+    article{
+        padding: 10px 5px;
+    }
+}
+
+.hr2{
+        background: #ddd;
+        margin: 2px auto;
+        margin-top:5px;
+        margin-bottom: 20px;
+}
+.artc2 p{
+    font: 1em 'Proxima Nova';
+    color: #ccc;
+    padding:25px 0 10px 0;
+} 
+.news div p {
+    font: 1em 'Proxima Nova';
+    color: #ccc;
+}
+.news{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#texts{
+    text-align: left;
+    padding-left:10px;
+}
+.news img{
+    width: 53px;
+    height: 53px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.news span{
+    font: .75em 'Montserrat';
+    color:#fff;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin: 2px 0 0 0;
+    }
+.greenbg{background-color:var(--yasil) ;}
+.yellowbg{background-color:#ffba00 ;}
+.bluebg{background-color:#089cea ;}
+.orangebg{background-color:#f34c03 ;}
+
+.informations article:last-child p, .informations article:last-child p a{
+    font: .9rem 'Proxima Nova';
+    color: #ccc;
+    padding: 1px 0;
+
+}
+.informations article:last-child p:nth-of-type(1){
+    padding-top:20px
+}
+
+.ftrform input, textarea {
+    width: 100%;
+    padding: 10px 14px;
+    margin: 1px 0;
+    border: none;
+    outline: none;
+    background: #444;
+    color: #777;
+    background-color: #f2f0f0;
+}
+.ftrform{
+    max-width: 600px;
+    padding:25px 10px;
+    margin:auto;
+}
+.ftrform input:first-child {
+    border-radius: 4px 4px 0 0;
+}
+.ftrform input:last-child {
+    background: var(--tyasil);
+    color: #fff;
+    border-radius: 0 0 4px 4px;
+}
+.end_sec{
+    background-color: #212121;
+    padding:20px 0 30px 0;
+    text-align: center;
+}
+.end_sec h4{
+    color: #101010;
+}
+.end_sec hr {
+    background: #0f0f0f;
+}
+.finish div {
+    text-align: center;
+    padding: 10px 0;
+}
+.copyright {
+    padding: 10px 0;
+    min-height: 35px; 
+    background: #111;
+}
+
+.copyright p {
+    font: 1em 'Proxima Nova';
+    color: #fff;
+    text-align: center;
+}
+@media only screen and (min-width:768px){
+    nav{
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+    }
+    menu{
+        display:flex;
+        order:-1;
+    }
+    menu li{
+        padding-right: 2.6vw;
+    
+    }
+    menu li a:hover, menu li a.active  {
+        border:none;
+        border-top:5px solid #53d153;
+    }
+    .twice{
+        display:flex;
+        flex-direction: row;
+        min-width:52%;
+        justify-content: space-between;
+    }
+    h1{
+        font-size: 3.4em;
+    }
+    #art3 { 
+        display: flex; 
+        justify-content: center;
+    }
+    #art3 article { flex: 0 1 380px; }
+    #gallary{
+        display:fixed;
+        /* flex-direction: row; */
+        max-width:920px;
+        margin:auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #gallary img{
+        width:160px;
+        height:160px;
+        object-fit: cover;
+    }
+    #companies{
+        padding:56px 0 0 0;
+        max-width: 860px;
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    
+    }
+    #companies div{
+       display: flex;
+       flex:0 1 210px;
+       justify-content: center;
+       align-items: center;
+    }
+    #companies div img{
+    width:initial;
+    }
+    .informations{
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .informations article{
+        display:flex;
+        /* max-width:400px; */
+        flex:0 1 330px;
+    }
+    .artc2, .artc21,  .lastartc{
+        display: flex;
+        flex-direction: column;
+    }
+    .ftrform{
+        width:325px;
+    }
+    .stars{
+        display:flex;
+        max-width:825px;
+        justify-content: center;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .infostar{flex:0 1 165px;}
+    .infostar hr{
+        width: 2px;
+        height: 77px;
+    }
+    .finish {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;
+        justify-content: center;
+    }
+    .finish div {
+        flex: 0 1 220px;
+        text-align: initial;
+    }
+}
